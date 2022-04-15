@@ -5,12 +5,13 @@
     --primary-color: #000;
     --secondary-color: #fff;
 }
+
 html{
-    transition: all 0.5 transition;
+    transition: all 0.5s ease-in;
 }
 
 html.dark{
-    --primary-color:var(--secondary-color);
+    --primary-color:#fff;
     --secondary-color: #333;
 }
 
@@ -37,6 +38,7 @@ body{
     padding: 8px 12px;
     position: absolute;
     top: 100px;
+    
 }
 
 .toggle:focus {
